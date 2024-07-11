@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 
 export function Coffe(props: { isAnimate: boolean }) {
   const { nodes, materials } = useGLTF(
-    "/3dmodels/TassNescafeMel/TassNescafeMel.glb",
+    "/my-personal-website/3dmodels/TassNescafeMel/TassNescafeMel.glb",
   );
 
   const myMesh = useRef(null);

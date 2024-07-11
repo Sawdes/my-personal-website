@@ -39,7 +39,7 @@ export default function App() {
         }}
       />
       {/* content */}
-      <BrowserRouter>
+      <BrowserRouter basename="/my-personal-website">
         {/* <Navbar setHeightNavbar={setHeightNavbar} setScrollTag={setScrollTag} /> */}
         <Navbar setHeightNavbar={setHeightNavbar} setScrollTag={setScrollTag} />
         <Routes>
